@@ -1057,42 +1057,28 @@ html, body {
   width: 100%;
   background: #FAF7F2;
   border-radius: 18px;
-  padding: 24px 16px;
+  padding: 28px 16px;
   text-align: center;
   animation: fadeIn 0.4s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .rsvp-success-icon {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   margin-bottom: 10px;
   display: block;
 }
 
 .rsvp-success-heading {
   font-family: var(--font-cinzel);
-  font-size: 1.15rem;
-  letter-spacing: 2px;
+  font-size: 1.25rem;
+  letter-spacing: 3px;
   color: var(--color-burgundy-deep);
-  margin-bottom: 8px;
+  margin: 0;
   font-weight: 700;
-}
-
-.rsvp-success-desc {
-  font-size: 0.95rem;
-  color: var(--color-burgundy-soft);
-  line-height: 1.6;
-  margin-bottom: 14px;
-}
-
-.rsvp-reset-link {
-  background: none;
-  border: none;
-  color: var(--color-muted-text);
-  font-size: 0.8rem;
-  text-decoration: underline;
-  cursor: pointer;
-  font-family: var(--font-cinzel);
-  letter-spacing: 1px;
 }
 
 .reopen-envelope-chip {

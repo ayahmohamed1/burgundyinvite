@@ -452,16 +452,6 @@ export default function App() {
                     <h5 className="rsvp-success-heading">
                       {INVITATION_DATA.rsvp?.successHeading || "THANK YOU!"}
                     </h5>
-                    <p className="rsvp-success-desc">
-                      شكراً لك يا <strong>{rsvpName}</strong>! {INVITATION_DATA.rsvp?.successMessage || "تم استلام تهنئتك لزين ومريم بكل حب ❤️"}
-                    </p>
-                    <button 
-                      type="button" 
-                      className="rsvp-reset-link"
-                      onClick={() => setRsvpSubmitted(false)}
-                    >
-                      تعديل الرسالة أو إرسال تهنئة أخرى
-                    </button>
                   </div>
                 ) : (
                   <form onSubmit={handleRsvpSubmit}>
